@@ -1,0 +1,23 @@
+{
+  "name": "vip-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/vip-ui.git"
+  },
+  "keywords": [
+    "design",
+    "system"
+  ],
+  "author": "Yony Calsin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonycalsin/vip-ui/issues"
+  },
+  "homepage": "https://github.com/yonycalsin/vip-ui#readme"
+}
