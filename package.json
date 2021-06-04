@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/yonycalsin/vip-ui/issues"
   },
-  "homepage": "https://github.com/yonycalsin/vip-ui#readme"
+  "homepage": "https://github.com/yonycalsin/vip-ui#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "prettier-plugin-packagejson": "^2.2.11"
+  }
 }
