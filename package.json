@@ -18,11 +18,21 @@
   "license": "MIT",
   "author": "Yony Calsin",
   "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css}\"",
     "format:prettier": "npm run prettier -- --write",
     "check:format": "npm run prettier -- --list-different"
+  },
+  "resolutions": {
+    "**/react": "17.0.1",
+    "**/react-dom": "17.0.1"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
